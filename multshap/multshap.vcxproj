@@ -143,10 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="msoftcon.cpp" />
     <ClCompile Include="multshap.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\MSC_Library\MSC_Library\msoftcon.h" />
+    <ClInclude Include="msoftcon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

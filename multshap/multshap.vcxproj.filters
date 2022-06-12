@@ -18,9 +18,12 @@
     <ClCompile Include="multshap.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="msoftcon.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\MSC_Library\MSC_Library\msoftcon.h">
+    <ClInclude Include="msoftcon.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
