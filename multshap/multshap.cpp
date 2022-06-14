@@ -1,4 +1,4 @@
-#include <msoftcon.h>
+#include "msoftcon.h"
 
 class shape {
 protected:
