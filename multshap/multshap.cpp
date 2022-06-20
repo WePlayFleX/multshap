@@ -23,3 +23,8 @@ public:
 		set_fill_style(fillstyle);
 	}
 };
+
+class Circle : public Shape
+{
+
+};
