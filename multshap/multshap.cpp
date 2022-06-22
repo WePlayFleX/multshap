@@ -34,4 +34,8 @@ public:
 	{
 
 	}
+	Circle(int x, int y, int r, color fc, fstyle fs) : Shape(x, y, fc, fs), radius(r)
+	{
+
+	}
 };
