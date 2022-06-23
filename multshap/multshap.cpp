@@ -34,8 +34,15 @@ public:
 	{
 
 	}
+
 	Circle(int x, int y, int r, color fc, fstyle fs) : Shape(x, y, fc, fs), radius(r)
 	{
 
+	}
+
+	void draw() const
+	{
+		Shape::draw();
+		draw_circle(xCo, yCo, radius);
 	}
 };
